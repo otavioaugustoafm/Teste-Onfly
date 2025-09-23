@@ -10,13 +10,13 @@ import axios from 'axios';
 export class Random implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'True Random Number Generator',
-		name: 'randomOrgApi',
+		name: 'random',
 		icon: 'file:icons/random-icon.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Gera um número aleatório utilizando a API do Random.org',
 		defaults: {
-			name: 'True Random Number',
+			name: 'Random',
 		},	
 		inputs: ['main'],
 		outputs: ['main'],
