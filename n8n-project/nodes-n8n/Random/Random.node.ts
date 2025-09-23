@@ -23,7 +23,7 @@ export class Random implements INodeType {
 		properties: [
 			// Input para o valor mínimo
 			{
-				displayName: 'Valor Mínimo',
+				displayName: 'Min',
 				name: 'min',
 				type: 'number',
 				default: 1,
@@ -32,7 +32,7 @@ export class Random implements INodeType {
 			},
 			// Input para o valor máximo
 			{
-				displayName: 'Valor Máximo',
+				displayName: 'Max',
 				name: 'max',
 				type: 'number',
 				default: 60,
